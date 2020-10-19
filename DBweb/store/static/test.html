@@ -1,0 +1,45 @@
+{% load static %}
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <title>Messagerie</title>
+
+
+        <link rel="stylesheet" type="text/css"
+        href="{% static 'style/logPage.css' %}">
+
+    </head>
+    <body>
+        <h1 id="sadra">ouep</h1>
+
+        <div id="page-login-signup">
+            <div id="container-login" class="log-box">
+                <h3 class="title">
+                    CONNEXION
+                </h3>
+                <input id="log-username" placeholder="Pseudo">
+                <input id="log-psswrd" placeholder="Mot de passe" type="password">
+                <button id="button-log"> Connexion </button>
+            </div>
+            <div id="container-signup" class="log-box">
+                <h3 class="title">
+                    INSCRIPTION
+                </h3>
+                <input id="sub-username" placeholder="Pseudo">
+                <input id="sub-psswrd" placeholder="Mot de passe" type="password">
+                <input id="sub-mail" placeholder="Mail">
+                <button id="button-sub"> Inscription </button>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="{% static 'script/api.js' %}">
+        </script>
+
+
+        <script
+			  src="{% static 'script/jquery.js' %}">
+        </script>
+        <script src="{% static 'script/logPage.js' %}" type="module"></script>
+    </body>
+</html>

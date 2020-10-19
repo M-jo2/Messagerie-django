@@ -1,0 +1,26 @@
+#sadra{
+    color:royalblue;
+    font-size: 2em;
+    border:3px solid gray;
+    border-radius: 50%;
+    width: min-content;
+    padding: 12px;
+    background-color: lightgray;
+}
+
+#page-login-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid gray;
+    border-radius: 25px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log-box{
+    display: flex;
+    flex-direction: column;
+    
+}
